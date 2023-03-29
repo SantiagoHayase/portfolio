@@ -26,6 +26,16 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+
+    const inputN = document.getElementById("name") as HTMLInputElement;
+    const inputE = document.getElementById("email") as HTMLInputElement;
+    const inputT = document.getElementById("topic") as HTMLInputElement;
+    const inputM = document.getElementById("message") as HTMLInputElement;
+
+    inputN.value = "";
+    inputE.value = "";
+    inputT.value = "";
+    inputM.value = "";
   };
 
   return (
@@ -74,6 +84,7 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                     name="user_name"
+                    id="name"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -82,6 +93,7 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                     name="user_email"
+                    id="email"
                   />
                 </div>
               </div>
@@ -91,6 +103,7 @@ const Contact = () => {
                   className="border-2 rounded-lg p-3 flex border-gray-300"
                   type="topic"
                   name="topic"
+                  id="topic"
                 />
               </div>
               <div className="flex flex-col py-2">
@@ -99,6 +112,7 @@ const Contact = () => {
                   className="border-2 rounded-lg p-3 flex border-gray-300"
                   rows={10}
                   name="message"
+                  id="message"
                 />
               </div>
               <button
