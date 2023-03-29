@@ -36,7 +36,7 @@ const About = () => {
             things to learn!
           </p>
           <p className="py-2 px-2 text-gray-700">
-            Get to know me and I will prove you that I'm always up for a
+            Get to know me and I will prove you that I am always up for a
             challenge!
           </p>
 
