@@ -13,7 +13,7 @@ const Skill = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/174854.png"
+                  src="/assets/skills/174854.png"
                   alt={"/"}
                   width={64}
                   height={64}
@@ -29,7 +29,7 @@ const Skill = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/css-3.png"
+                  src="/assets/skills/css-3.png"
                   alt={"/"}
                   width={64}
                   height={64}
@@ -45,7 +45,7 @@ const Skill = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/js.png"
+                  src="/assets/skills/js.png"
                   alt={"/"}
                   width={64}
                   height={64}
@@ -61,7 +61,7 @@ const Skill = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/typescript.png"
+                  src="/assets/skills/typescript.png"
                   alt={"/"}
                   width={64}
                   height={64}
@@ -77,7 +77,7 @@ const Skill = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/React-icon.svg.png"
+                  src="/assets/skills/React-icon.svg.png"
                   alt={"/"}
                   width={64}
                   height={64}
@@ -93,7 +93,7 @@ const Skill = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/nodejs.png"
+                  src="/assets/skills/nodejs.png"
                   alt={"/"}
                   width={64}
                   height={64}
@@ -109,7 +109,7 @@ const Skill = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/1280px-Nextjs-logo.svg.png"
+                  src="/assets/skills/1280px-Nextjs-logo.svg.png"
                   alt={"/"}
                   width={64}
                   height={64}
@@ -125,7 +125,7 @@ const Skill = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/github.png"
+                  src="/assets/skills/github.png"
                   alt={"/"}
                   width={64}
                   height={64}
