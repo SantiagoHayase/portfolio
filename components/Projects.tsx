@@ -23,7 +23,7 @@ const Projects = () => {
           <ProjectItem
             title={"Teslo-Shop clone"}
             img={tesloshopcloneImg}
-            projectUrl={"https://teslo-shop-clone.vercel.app/"}
+            projectUrl={"https://github.com/SantiagoHayase/TesloShopClone"}
           />
           <ProjectItem
             title={"Videogames' API"}
